@@ -2,6 +2,19 @@ module.exports = {
   packagerConfig: {
     asar: true,
   },
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          owner: "gotomts",
+          name: "electron-tutorial-app",
+        },
+        prerelease: false,
+        draft: true,
+      },
+    },
+  ],
   rebuildConfig: {},
   makers: [
     {
