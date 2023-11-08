@@ -23,5 +23,5 @@ jobs:
 
       - name: Publish app
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: yarn publish
