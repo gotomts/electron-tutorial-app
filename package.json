@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Hello World!",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gotomts/electron-tutorial-app.git"
+  },
   "scripts": {
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
