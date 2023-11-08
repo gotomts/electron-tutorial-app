@@ -10,6 +10,7 @@ module.exports = {
           owner: "gotomts",
           name: "electron-tutorial-app",
         },
+        authToken: process.env.GITHUB_TOKEN,
         prerelease: false,
         draft: true,
       },
